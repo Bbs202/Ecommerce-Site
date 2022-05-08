@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+
+            <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+            <!-- External Css -->
+    <link rel="stylesheet" href="style.css">
+
+    
+            <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+                <!-- Google Font -->
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo navbar-brand">
+                <img src="/img/logo.png" width="30%" height="20%" alt="logo">
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contacts</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img class="view2" src="/img/cart.png" alt="cart" width="30px" height="30px">
+            <i class="fa fa-bars menu-icon" onclick="menutoggle()"></i>
+        </div>
+        <div class="row">
+            <div class="col-2 view">
+
+                <h1 id="head">Give Your Workout<br />A New Style!</h1>
+                <p>Succes isn't always about greatness. It's about 
+                    consistency. Consistent<br> hard work gains success. Greatness
+                    will come.
+                </p>
+                <a href="" class="btn">Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="img/home.jpg" alt="boutique">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- featured categories -->
+    <div class="categories">
+        
+            <div class="small-container">
+                <div class="row">
+                <div class="col-3">
+                    <img src="/img/watch2.jpg"  alt="watch"> 
+                 </div>
+                 <div class="col-3">
+                     <img src="/img/bag1.jpg"  alt="bag">
+                 </div>
+                 <div class="col-3">
+                     <img src="/img/gown1i.jfif"  alt="gown">
+                 </div>
+            </div>
+            
+        </div>
+    </div>
+   
+
+    <!-- featured-product -->
+        <div class="small-container">
+            <hr>
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img class="img-responsive" src="/img/shoe3ii.jfif" alt="bag">
+                    <h4>Sneaker</h4>
+                    <div class="rating"> 
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$350.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="/img/bag2i.jfif" alt="bag" class="img-responsive">
+                    <h4>Hand Bag</h4>
+                    <div class="rating"> 
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$320.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="/img/watch3iv.jfif" alt="bag" class="img-responsive">
+                    <h4>Classy Watch</h4>
+                    <div class="rating"> 
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>$850.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="/img/gown2i.jfif" alt="gown" class="img-responsive">
+                    <h4>Gown</h4>
+                    <div class="rating"> 
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$2000.00</p>
+                </div>
+            </div>
+            <hr>
+
+            <h2 class="title">Latest Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img class="img-responsive" src="/img/shoe3iii.jfif" alt="bag">
+                    <h4>High Heel</h4>
+                    <div class="rating"> 
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$100.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="/img/bag2iv.jfif" alt="bag" class="img-responsive">
+                    <h4>Hand Bag</h4>
+                    <div class="rating"> 
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$70.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="/img/gown4iii.jfif" alt="bag" class="img-responsive">
+                    <h4>Gown</h4>
+                    <div class="rating"> 
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$150.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="/img/jeans1.jpg" alt="gown" class="img-responsive">
+                    <h4>Jeans</h4>
+                    <div class="rating"> 
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+            </div>
+
+
+            
+            <div class="row">
+                <div class="col-4">
+                    <img class="img-responsive" src="/img/gown3iii.jfif" alt="gown">
+                    <h4>Gown</h4>
+                    <div class="rating"> 
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$100.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="/img/jeans2ii.jfif" alt="jeans" class="img-responsive">
+                    <h4>Straight Jean</h4>
+                    <div class="rating"> 
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$70.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="/img/shoe3i.jfif" alt="bag" class="img-responsive">
+                    <h4>Sneaker</h4>
+                    <div class="rating"> 
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>$110.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="/img/watch1v.jfif" alt="watch" class="img-responsive">
+                    <h4>Nice Watch</h4>
+                    <div class="rating"> 
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$90.00</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- offer -->
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                       <img src="/img/shoe2ii.jfif" class="offer-img" alt="heels">  
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusively Available on Boutique</p>
+                        <h1 style="font-weight: 600;">Heels</h1>
+                        <small>The Heels features quality materials and the 
+                            sole features 45% fibre material. Available in black, 
+                            pink and gold.</small>
+                            <a href="" class="btn">Buy Now &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- testimonial -->
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloremque non tenetur odio beatae id, ipsa, voluptatibus dolor voluptatem odit, est rem atque.
+                            Numquam illo quas blanditiis, vel aliquam nesciunt.</p> 
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="/img/Jane.jfif" alt="Jane">
+                            <h3>Jane Jackson</h3>
+                    </div>
+
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloremque non tenetur odio beatae id, ipsa, voluptatibus dolor voluptatem odit, est rem atque.
+                            Numquam illo quas blanditiis, vel aliquam nesciunt.</p> 
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                
+                            </div>
+                            <img src="/img/mary.jfif" alt="Mary">
+                            <h3>Mary James</h3>
+                    </div>
+
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloremque non tenetur odio beatae id, ipsa, voluptatibus dolor voluptatem odit, est rem atque.
+                            Numquam illo quas blanditiis, vel aliquam nesciunt.</p> 
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="/img/Lola.jfif" alt="lola">
+                            <h3>Lola Andrew</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- brands -->
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="/img/coca-cola.png" alt="coca cola">
+                    </div>
+
+                    <div class="col-5">
+                        <img src="/img/apple.png" alt="Apple">
+                    </div>
+
+                    <div class="col-5">
+                        <img src="/img/toyota.png" alt="Toyota">
+                    </div>
+
+                    <div class="col-5">
+                        <img src="/img/levis.png" alt="Levis">
+                    </div>
+
+                    <div class="col-5">
+                        <img src="/img/nike.jfif" alt="Nike">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+       <!--  footer -->
+       <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Andriod and ios mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="/img/playstore.jfif" alt="Playstore">
+                            <img src="/img/applestore.png" alt="Appstore">
+                        </div>
+                    
+                    </div>
+
+                    <div class="footer-col-2">
+                        <img src="/img/logo.png" alt="">
+                        <p>Our purpose is to sustainably make the pleasure 
+                            and benefits of fashion accessible to the many</p>
+                    </div>
+
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col-3">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2022</p>
+            </div>
+        </div>    
+            <script>
+                var menuItems = document.getElementById("menuItems");
+
+                menuItems.style.maxHeight == "0px";
+
+                function menutoggle(){
+                    if(menuItems.style.maxHeight == "0px"){
+                        menuItems.style.maxHeight = "200px";
+                    }
+                    else{
+                        menuItems.style.maxHeight = "0px"
+                    }
+                }
+            </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
